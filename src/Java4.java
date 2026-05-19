@@ -16,10 +16,9 @@
 
 public class Java4 {
     public static void main(String[] args){
-        int x=5;
-        x=10;
-        System.out.println(x);
-
-        }
+    int s=23;
+    s=96;
+        System.out.println(s);
     }
+}
 
