@@ -1,13 +1,15 @@
 import java.util.*;
 public class ItoB {
     public static void main(String[] args){
-        int num=13;
-        int rem;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the number: ");
+        int num=sc.nextInt();
+        String rem="";
         while(num>0){
-            rem=num%2;
+            rem= rem +(num%2);
             num=num/2;
-            System.out.print(rem);
 
         }
+        System.out.print("The binary number is: "+rem);
     }
 }
