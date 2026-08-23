@@ -10,5 +10,15 @@ int num2=sc.nextInt();
 
 System.out.println("Enter the third number: ");
 int num3=sc.nextInt();
+
+if(num1>=num2 && num1>=3){
+System.out.println("Largest number is: "+num1);
+}
+if(num2>=num1 && num2>=3){
+System.out.println("Largest number is: "+num2);
+}
+if(num3>=num1 && num3>=2){
+System.out.println("Largest number is: "+num3);
+}
 }
 }
