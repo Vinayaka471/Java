@@ -13,3 +13,4 @@ public class Java12 {
         System.out.print("My name is: "+name + " and  my age is: "+age);
     }
 }
+ 
